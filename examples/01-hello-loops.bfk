@@ -1,0 +1,50 @@
+We can simplify (lol kinda) the Hello World! with loops and cell management
+
+'H' is 72 so we can loop adding 10 to cell 2  7 times then add 2 and print
+
+Setup and loop
++++++++[>++++++++++<-]
+Add 2 to cell 2 and print
+>++.<
+
+'e' is 101 so add 10  10 times
+++++++++++[>>++++++++++<<-]
+Add 1
+>>+
+Print
+.
+
+'l' is 108 so add 7  this is just eaiser to add 1  7 times instead of looping
++++++++..
+'o' is 111
++++.
+
+'SPACE' is 32 use a loop
+<< Set back to cell 0
++++[>>>++++++++++<<<-]
+>>>++.
+
+'W' is 87 we can use cell 2 since it is close
+<<<
++++[>+++++<-] Adding 15 here
+>.
+
+'o' 111
+>.
+
+'r' 114
++++.
+
+'l' 108
+------.
+
+'d' 100
+--------.
+
+'!' 33
+>>>
++++[>++++++++++<-]>+++.
+
+CR LF 13 & 10
+>++[>+++++<-]
+>+++.---.

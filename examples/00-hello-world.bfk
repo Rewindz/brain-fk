@@ -1,0 +1,53 @@
+Put 'H'/72 into cell 0
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Print it to stdout
+.
+'e' is 101 ascci so add 29
++++++++++++++++++++++++++++++
+.
+'l' is 108 add 7
++++++++
+.
+.
+'o' is 111 add 3
++++
+.
+SPACE is 32 easier to just move to the next cell and add 32
+>
+++++++++++++++++++++++++++++++++
+.
+
+Swap back
+<
+
+'W' is 87 so sub 24
+------------------------
+.
+
+'o' again add 24
+++++++++++++++++++++++++
+.
+
+'r' is 114 add 3
++++
+.
+
+'l' 108 sub 6
+------
+.
+
+'d' is 100 sub 8
+--------
+.
+
+'!' is 33 we can use cell 2 which is still set to 32
+>
++
+.
+
+LF is 10 and CR (for windows compatibility) is 13 we will use the 3rd cell since it is set to 0
+>
++++++++++++++
+.
+---
+.

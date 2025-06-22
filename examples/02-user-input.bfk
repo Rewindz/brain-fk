@@ -1,0 +1,17 @@
+You can use the comma to wait for stdin
+We can only accept 1 byte at a time so we will just take 5
+
+
+First lets say 'Name?:'
+
+++++++++[>++++++++++<-]>--.< 'N'
+++[>++++++++++<-]>-. 'a'
+++++++++++++. 'm'
+--------. 'e'
+<++++++[>>++++++++++<<-]>>+++. '?'
+<<+++[>>>++++++++++<<<-]>>>++. 'SPACE'
+>,>,>,>,>, Get user input
+Print Hi 'initial'
+>+++++++[>++++++++++<-]>++.
+<+++[>++++++++++<-]>+++.
+<<<<<<<.>.>.>.>.>.
