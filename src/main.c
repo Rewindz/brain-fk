@@ -112,6 +112,8 @@ void parse_brainfk(FILE *src)
     }   
 
   }while( (res = fgetc(src)) != EOF);
+
+  free(loop_cmds);
   
 }
 
