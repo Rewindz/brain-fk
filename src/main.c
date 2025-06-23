@@ -59,7 +59,7 @@ void parse_brainfk(FILE *src)
   uint8_t in_loop = 0;
   uint8_t skip_loop = 0;
 
-  char *loop_cmds = calloc(sizeof(char), 512);
+  char *loop_cmds = calloc(512, sizeof(char));
   uint16_t loop_pos = 0;
   
   do{
